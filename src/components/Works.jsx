@@ -8,7 +8,7 @@ import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from '../utils/motion'
 import { client, urlFor } from '../utils/client'
 import { projectsQuery } from '../utils/query'
-import { sourceLink } from '../constants'
+import { sourceLink } from '../utils/constants'
 
 const ProjectCard = ({ index, title, description, tags, image, sourceLink, deploymentLink }) => {
 	return (
