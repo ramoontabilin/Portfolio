@@ -7,7 +7,7 @@ import { logoPurple } from '../assets'
 
 const Hero = () => {
 	return (
-		<section className='relative w-full h-screen mx-auto'>
+		<section className='relative w-full flex justify-center items-end h-screen mx-auto'>
 			<div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl flex flex-row items-start gap-5 z-10`}>
 				<div className='flex flex-col justify-center items-center mt-5'>
 					<div className='w-5 h-5 rounded-full bg-[#915eff]' />
@@ -18,7 +18,9 @@ const Hero = () => {
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>I like playing around with <br className='md:hidden block' /> various web designs and frameworks</p>
 				</div>
 			</div>
-			<DavidCanvas />
+			<div className='w-full md:h-full h-[50%] md:mb-0 mb-[30%]'>
+				<DavidCanvas />
+			</div>
 
 			<div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10'>
 				<a href="#about">

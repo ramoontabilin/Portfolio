@@ -66,9 +66,9 @@ const David = ({ isMobile }) => {
 	return (
 		<group dispose={null}>
 			<group
-				position={isMobile ? [12, -16, -5] : [12, -17, -5]}
-				rotation={[3.63, -2.58, 0.01]}
-				scale={isMobile ? 0.115 : 0.13}
+				position={isMobile ? [16, -12, -16] : [12, -15, -10]}
+				rotation={[3.63, -2.98, 0.01]}
+				scale={isMobile ? 0.18 : 0.13}
 			>
 				<mesh
 					castShadow
