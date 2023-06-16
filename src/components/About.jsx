@@ -10,7 +10,11 @@ import { servicesQuery } from '../utils/query'
 
 const ServiceCard = ({ index, title, image }) => {
 	return (
-		<Tilt className='xs:w-[250px] w-full'>
+		<Tilt
+			className='xs:w-[250px] w-full'
+			tiltReverse={true}
+			gyroscope={true}
+		>
 			<motion.div
 				// variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
 				initial={{ opacity: 0 }}
